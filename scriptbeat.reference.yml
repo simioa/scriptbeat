@@ -3,8 +3,9 @@
 ############################# {Beat} ######################################
 
 scriptbeat:
-  # Defines how often an event is sent to the output
-  period: 1s
+  scripts:
+    - script: "/bin/ps"
+      period: "10s"
 
 #================================ General ======================================
 
